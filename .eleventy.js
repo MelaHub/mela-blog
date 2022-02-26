@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByGlob(["notes/**/*.md", "index.md"]);
     });
     
-    eleventyConfig.addPassthroughCopy('assets');
+    eleventyConfig.addPassthroughCopy('src/assets');
     eleventyConfig.setUseGitIgnore(false);
 
     return {
