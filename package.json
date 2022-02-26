@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "compile": "npx @11ty/eleventy"
+    "compile": "npx @11ty/eleventy",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
